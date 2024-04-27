@@ -51,7 +51,7 @@ def get_groq_assistant(
             "When a user asks a question, you will be provided with information about the question.",
             "Carefully read this information and provide a clear and concise answer to the user.",
             "Do not use phrases like 'based on my knowledge' or 'depending on the information'.",
-            "Always try to reference the pdf page knowledge base if applicable"
+            "Always reference the pdf page knowledge base if applicable.",
         ],
         # This setting adds references from the knowledge_base to the user prompt
         add_references_to_prompt=True,
